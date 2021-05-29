@@ -349,7 +349,9 @@ header
     display: none;
   }
   .header-area .main-nav .only-logo {
+    text-align: left;
     display: inline;
+    color: #fff;
   }
 }
 .header-area .main-nav .nav {
@@ -771,6 +773,7 @@ TRY IT ... with or without CENTER CENTER
   .welcome-area .header-text {
     top: 55% !important;
     transform: perspective(1px) translateY(-60%) !important;
+    padding-top: 60px;
   }
   .welcome-area .header-text h1 {
     font-size: 36px;
