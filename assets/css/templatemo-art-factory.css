@@ -846,6 +846,7 @@ about
 */
 
 #about {
+  padding: 120px 0px;
   border-bottom: 1px solid #eee;
 }
 
@@ -915,43 +916,20 @@ services
   position: relative;
   padding: 120px 0px 90px 0px;
   background: rgba(0,0,0,1);
+  /* 
   background: -moz-linear-gradient(
-    -45deg,
+    180deg,
+    rgba(255,255,255,1),
     rgba(0,0,0,1),
-    rgba(255,255,255,1),
-    rgba(0,0,0,1)
-  );
-  background: -webkit-gradient(
-    left top,
-    right bottom,
-    color-stop(0%, rgba(0,0,0,1)),
-    color-stop(0%, rgba(255,255,255,1)),
-    color-stop(100%, rgba(0,0,0,1))
-  );
-  background: -webkit-linear-gradient(
-    -45deg,
-    rgba(0,0,0,1) 0%,
-    rgba(255,255,255,1),
-    rgba(0,0,0,1)
-  );
-  background: -o-linear-gradient(
-    -45deg,
-    rgba(0,0,0,1) 0%,
-    rgba(255,255,255,1),
-    rgba(0,0,0,1)
-  );
-  background: -ms-linear-gradient(
-    -45deg,
-    rgba(0,0,0,1) 0%,
-    rgba(255,255,255,1),
-    rgba(0,0,0,1)
+    rgba(255,255,255,1)
   );
   background: linear-gradient(
-    135deg,
-    rgba(0,0,0,1) 0%,
-    rgba(255,255,255,1),
-    rgba(0,0,0,1)
+    180deg,
+    rgba(255,255,255,1) 2%,
+    rgba(0,0,0,1) 95%,
+    rgba(255,255,255,1)
   );
+  */
 }
 
 .service-item {
@@ -1225,11 +1203,6 @@ contact
 .contact-form {
   padding: 100px;
   background: rgb(0,0,0);
-background: linear-gradient(
-  90deg, 
-  rgba(0,0,0,1) 0%, 
-  rgba(0,0,0,0.5242471988795518) 67%, 
-  rgba(255,255,255,1) 100%);
 }
 
 @media (max-width: 765px) {
