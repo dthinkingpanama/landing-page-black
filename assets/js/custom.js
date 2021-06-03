@@ -76,6 +76,23 @@
     }
   });
 
+  $("#form-submit").click(function () {
+
+    $.ajax({
+      url: 'http://localhost:8080/execute',
+      dataType: 'json',
+      type: 'post',
+      contentType: 'application/json',
+      data: JSON.stringify( { "name": $('#name').val(), "email": $('#email').val(), "message": $('#message').val() } ),
+      processData: false,
+      error: function( jqXhr, textStatus, errorThrown ){
+          console.log( errorThrown );
+      }
+  });
+
+  }
+  );
+
   $(document).ready(function() {
     $(document).on("scroll", onScroll);
 
